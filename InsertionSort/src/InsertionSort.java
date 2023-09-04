@@ -13,7 +13,6 @@ public class InsertionSort {
             while (posAnterior >= 0 && vetor[posAnterior] > valor) {
                 vetor[posAnterior + 1] = vetor[posAnterior];
                 posAnterior = posAnterior - 1;
-                System.out.println(posAnterior);
             }
             vetor[posAnterior + 1] = valor;
         }
